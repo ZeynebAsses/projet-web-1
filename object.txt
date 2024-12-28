@@ -1,0 +1,76 @@
+ <img src="OIP (1).jpg"  class="banner-img">
+                <img src="OIP (2).jpg"  class="banner-img">
+                <img src="OIP (23).jpg"  class="banner-img">
+                <img src="OIP (24).jpg"  class="banner-img">
+                <img src="vêtements-bébé-fille-blouse-fleurie-shrot-bandeau-corail-768x1139.jpg"  class="banner-img">
+                <img src="bebe-vetements.jpg"  class="banner-img">
+
+
+
+        <div class="newsletter">
+        <DIV class="newsletter-bar">
+        <h2>Inscrivez-vous à notre newsletter</h2>
+        <p>Recevez les dernières nouveautés et offres directement dans votre boîte mail.</p>
+        <form id="newsletterForm">
+            <input type="email" id="email" placeholder="Entrez votre adresse email" required>
+            <button type="submit">S'inscrire</button>
+        </form>
+        </DIV></div>
+
+newsletter{  padding: 2rem 1rem;
+  width: 100%;
+  
+}
+.newsletter h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+.newsletter p {
+  font-size: 1rem;
+  margin-bottom: 1.5rem;
+  display: none;
+  z-index: 1000;
+  bottom: 0;
+  left: 0;
+}
+.newsletter form {
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+.newsletter input[type="email"] {
+  padding: 0.8rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+  width: 300px;
+  max-width: 100%;
+}
+
+.newsletter button {
+  padding: 0.8rem 1.5rem;
+  font-size: 1rem;
+  background: #c088ab;
+  color: black;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+.newslette-bar{
+  position: relative;
+  margin-top: 20px;
+  background-color: #f4f4f4;
+  padding: 10px;
+  text-align: center;
+  width: 100%;
+}
+ .large-table th {
+      background-color: #f4f4f4;
+      font-weight: bold;
+    }
+    
+    .large-table tr:nth-child(even) {
+      background-color: #f9f9f9;
+    }
